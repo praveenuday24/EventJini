@@ -1,0 +1,307 @@
+body{
+    font-family:cursive;
+    background-color: #808080;
+}
+img{
+    cursor: pointer;
+}
+.containerSection{
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color: #ffffff;
+}
+/*****************  Nav Section  **********************/
+
+.navSection{
+    border-right: solid 1px #808080;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding:40px 0 60px 40px;
+    cursor: pointer;
+}
+.appTitle{
+    font-size: 25px;
+    color: #FF0000;
+}
+.subTitle{
+    color: #808080;
+    padding-left: 5px;
+}
+.appLogo{
+    width: 30px;
+    height: 30px;
+}
+.navMenu{
+    padding: 0;
+    margin:0;
+}
+.navItem{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.4;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.navItem.active{
+    opacity: 1;
+}
+.navItem.active:before {
+    position: absolute;
+    content: "";
+    background-color: red;
+    width: 8px;
+    height: 15px;
+    border-radius: 0 8px 8px 0;
+    left: 0;
+}
+.navItem:last-child{
+    margin-bottom: 0;
+}
+.menuLogo{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.menuTitle{
+    margin-bottom: 0;
+}
+
+/*****************  Nav Section  **********************/
+.mainSection{
+    padding-top: 40px;
+}
+.headerSection{
+    padding-left: 20px;
+}
+.headerTitleSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 20px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.headerIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.headerIcon:last-child{
+    margin-right: 0;
+}
+.headerDetails{
+    color: #808080;
+    font-size: 14px;;
+}
+    /*****************  Now Watching Card Section  **********************/
+    .card-img{
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 300px;
+        border-radius: 8px;
+        position: relative;
+    }
+    .playIcon{
+        width: 20px;
+        height: 20px;
+    }
+    .watchTrailer{
+        font-size: 12px;
+        color: #ffffff;
+        cursor: pointer;
+        position: absolute;
+        top:15px;
+        right: 15px;
+        display: flex;
+    }
+    .cardDetails{
+        padding:15px;
+    }
+    .movieName{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .movieDetails{
+        display: flex;
+        font-size: 20px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .movieValues{
+        display: flex;
+        font-size: 14px;
+        color: #808080;
+    }
+    .duration{
+        margin-right: 15px;
+    }
+    .genereValue{
+        font-size: 14px;
+        color: #808080;
+    }
+    .genereSubtitle:before {
+        content: '';
+        border-left: solid 2px #808080;
+        width: 1px;
+        height: 4px;
+        padding-right: 5px;
+    }
+    .ratings{
+        font-size: 14px;
+        color: #808080;
+        display: flex;
+        align-items: center;
+    }
+    .ratingStar{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .totalReviews{
+        margin-left: 10px;
+    }
+
+    /*****************  Browse By Category Section  **********************/
+    .browseByCategory{
+        margin-top:60px;
+    }
+    
+    .categoriesWrapper{
+        display: flex;
+        padding-left: 20px;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .categoryName{
+        margin-right: 20px;
+        font-size: 14px;
+        color: #808080;
+        cursor: pointer;
+    }
+    .categoryName:last-child{
+        margin-right: 0;
+    }
+    .categoryName.active {
+        background-color: rgba(255, 0, 0, 0.3);
+        color: #ff0000;
+        border-radius: 8px;
+        padding: 5px 17px;
+        opacity: 0.6;
+    }
+
+    .browseByCategory .movieName{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .browseByCategory .carousel{
+        margin:30px 0;
+    } 
+    .browseByCategory .genereValue {
+        font-size: 10px;
+        color: #808080;
+        margin-bottom: 10px;
+    }
+    .browseByCategory .ratings {
+        font-size: 13px;
+        color: #808080;
+        display: flex;
+        align-items: center;
+    }
+    .browserByCategoryCarousel {
+        margin:20px 0;
+    }
+    .genereSubtitle{
+        margin-left: 5px;
+    }
+    .posterImage {
+        height: 250px;
+        width: 170px;
+        border-radius: 8px;
+    }
+
+
+    /*****************  Slick Carousel  **********************/
+        .carousel .slick-slide{
+            padding: 0 15px!important;
+        }
+      .slick-slide {
+        padding: 0 6px!important;
+      }
+      
+      /* Color of the arrows */
+      .slick-prev,.slick-next{
+        width: 30px !important;
+        height: 30px !important;
+        padding:16px!important;
+        z-index: 1;
+        top:35% !important;
+        background-color:rgba(218, 211, 211, 0.5)!important;
+        border-radius: 50%!important;
+        visibility: hidden ;
+      }
+      .slick-next{
+          background-image: url("./assets/right.png")!important;
+        right: 15px !important;
+      }
+      .slick-prev{
+        background-image: url("./assets/left.png") !important;
+          left: 15px !important;
+        }
+      .slick-next::before, .slick-prev::before {
+        content: '';
+      }
+      .slick-next:before ,.slick-prev::before{
+        content: '' !important;
+        }
+        .slick-slide.slick-current.slick-active:focus{
+            border:none!important;
+            outline:none!important;
+        }
+        .slick-slide.slick-active:focus{
+            border:none!important;
+            outline:none!important;
+        }
+        .slick-slide:focus{
+            border:none!important;
+            outline:none!important;
+        }
+        .slick-list{
+            padding:0 20% 0 0;
+        }
+/*****************  Setting Up Images  **********************/
+#avengers{
+    background-image: url("./assets/avengers.jpg");
+}
+#Alita{
+    background-image: url("./assets/alita.jpg");
+}
+#marvel{
+    background-image: url("./assets/captainMarvel.jpg");
+}
+#shazam{
+    background-image: url("./assets/shazam.jpg");
+}
+#Aladdin{
+    background-image: url("./assets/shazam.jpg");
+}
+
+
+/********  Mobile Devices   *********/
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+/********  Tablet Devices   *********/
+@media only screen and (max-width: 996px) and (min-width:768px) {
+
+}
+

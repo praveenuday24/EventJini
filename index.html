@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Booking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./slick-carousel/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./slick-carousel/slick.css"/>
+  <script type="text/javascript" src="./slick-carousel//slick.min.js"></script>
+  
+  <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="containerSection container">
+            <div class="row">
+                <section class="navSection col-sm-3">
+                    <div class="header">
+                        <img class="appLogo" alt="applogo" src="./assets/reel.png">
+                        <h3 class="appTitle">Movie<span class="subTitle">App</span></h3>
+                    </div>
+                    <ul class="navMenu">
+                        <li class="navItem active">
+                            <img class="menuLogo" alt="movie" src="./assets/reel.png">
+                            <p class="menuTitle">Now showing</p>
+                        </li>
+                        <li class="navItem">
+                            <img class="menuLogo" alt="ticket" src="./assets/ticket.png">
+                            <p class="menuTitle">My tickets</p>
+                        </li>
+                        <li class="navItem">
+                            <img class="menuLogo" alt="profile" src="./assets/user.png">
+                            <p class="menuTitle">Profile</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="mainSection col-sm-9">
+                    <section class="nowShowingSection">
+                        <div class="headerSection">
+                            <div class="headerTitleSection">
+                                <h3 class="title">Now showing</h3>
+                                <div class="headerIcons">
+                                    <img class="headerIcon" alt="search" src="./assets/search.png">
+                                    <img class="headerIcon" alt="notification" src="./assets/notification.png">
+                                </div>
+                            </div>
+                            <p class="headerDetails">Retro occupy organic,stumptown shabby chic pour-over roof part</p>
+                        </div>
+                        <div class="carousel row">
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="shazam">
+                                    <div class="watchTrailer">
+                                    <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                    watchTrailer</span>
+                                    </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Shazam!</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">143 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="Alita">
+                                    <div class="watchTrailer">
+                                        <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                        watchTrailer</span>
+                                        </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Alita:Battle Angel</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">126 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="shazam">
+                                    <div class="watchTrailer">
+                                    <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                    watchTrailer</span>
+                                    </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Shazam!</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">143 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="Alita">
+                                    <div class="watchTrailer">
+                                        <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                        watchTrailer</span>
+                                        </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Alita:Battle Angel</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">126 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="shazam">
+                                    <div class="watchTrailer">
+                                    <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                    watchTrailer</span>
+                                    </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Shazam!</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">143 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-6">
+                                <div class="card-img" id="Alita">
+                                    <div class="watchTrailer">
+                                        <img class="playIcon" alt="watchTrailer" src="./assets/play.png">
+                                        watchTrailer</span>
+                                        </div>
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Alita:Battle Angel</h4>
+                                        <div class="movieValues">
+                                            <div class="duration">126 mins</div>
+                                            <div class="certificate">PG-13</div>
+                                        </div>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+                    <section class="browseByCategory">
+                        <div class="headerSection">
+                            <div class="headerTitleSection">
+                                <h3 class="title">Browse by category</h3>
+                            </div>
+                        </div>
+                        <div class="categoriesWrapper">
+                            <div class="categoryName active">Action</div>
+                            <div class="categoryName ">Adventure</div>
+                            <div class="categoryName ">Fantasy</div>
+                            <div class="categoryName ">Romance</div>
+                        </div>
+                        <div class="browserByCategoryCarousel  row">
+                            <!-- <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Aladdin</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.3<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="marvel">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Aladdin</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.3<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Aladdin</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.3<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Avengers: Endgame</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="marvel">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Aladdin</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       6.3<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="Aladdin">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3 ">
+                                <div class="card-img" id="marvel">                                
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Captain Marvel</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Adventure <span class="genereSubtitle">Fantasy</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       8.5<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cardWrapper col-sm-3">
+                                <div class="card-img" id="avengers">
+                                </div>
+                                <div class="cardDetails">
+                                    <div class="movieDetails">
+                                        <h4 class="movieName">Dumbo</h4>
+                                    </div>
+                                    <div class="movieGenere">
+                                        <p class="genereValue">2019 . Action <span class="genereSubtitle">Romance</span></p>
+                                    </div>
+                                    <div class="ratings">
+                                        <img class="ratingStar" alt="ratingStar" src="./assets/star.png">
+                                       9.0<span class="totalReviews">(341,654)</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        
+                    </section>
+                </section>
+            </div>
+        </div>
+    </body>
+
+</html>
